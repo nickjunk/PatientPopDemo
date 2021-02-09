@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: patientPopTests.ComparePracticeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.294 sec <<< FAILURE!
+formEntryTest(patientPopTests.ComparePracticeTest)  Time elapsed: 18.077 sec  <<< FAILURE!
+java.lang.AssertionError: expected [55] but found [60]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at patientPopTests.ComparePracticeTest.formEntryTest(ComparePracticeTest.java:70)
+
