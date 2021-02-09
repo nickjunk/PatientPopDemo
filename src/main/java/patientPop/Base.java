@@ -3,7 +3,7 @@ package patientPop;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Base {
@@ -11,6 +11,10 @@ public class Base {
 	public static WebDriver driver;
 	
 	public static WebDriver initializeDriver() {
+		
+		//String driverPath = System.getProperty("user.dir")+"/src/chromedriver";
+		//System.setProperty("webdriver.chrome.driver", driverPath);
+		//driver = new ChromeDriver();
 		
 		String driverPath = System.getProperty("user.dir")+"/src/geckodriver";
 		
